@@ -111,6 +111,13 @@ nav .fas{
     }
 }
 
+.servicos{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
 .servicos h1{
     font-size: 40px;
     padding-bottom: 20px;
@@ -119,15 +126,6 @@ nav .fas{
     font-size: 20px;
     color: #777;
 }
-
-.servicos{
-    width: 80%;
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
 .row{
     margin-top: 5%;
     display: flex;
@@ -150,9 +148,6 @@ nav .fas{
 }
 
 @media(max-width: 700px){
-    .servicos-col{
-        
-    }
     .row{
         flex-direction: column;
     }
@@ -171,7 +166,7 @@ nav .fas{
     width: 80%;
     margin: auto;
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
     text-align: center;
 }
 
@@ -194,4 +189,92 @@ nav .fas{
     background: #000000;
     transition: 0.2s;
     color: rgb(255, 255, 255);
+}
+
+.contato{
+    min-height: 70vh;
+    width: 100%;
+    
+    background-image: linear-gradient(rgb(112, 5, 5, 0.9),rgb(112, 5, 5, 0.84)),url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+    display: inline-block;
+    text-align: left;
+
+    color: #fff;
+    margin: auto;
+    padding-top: 50px;
+}
+.contato h1{
+    font-size: 35px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 500px;
+}
+.contato p{
+    font-size: 25px;
+    padding-left: 500px;
+}
+.emailLink{
+    color: #fff;
+    font-size: 30px;
+}
+
+@media(max-width: 700px){    
+    .contato{
+        padding-bottom: 30px;
+    }
+    .contato h1{
+        font-size: 40px;
+        padding-left: 25px;
+    }
+    .contato p{
+        font-size: 25px;
+        padding-left: 25px;
+    }
+    .emailLink{
+        font-size: 25px;
+    }
+}
+.topo-btn{
+    display: inline-block;
+    text-decoration: none;
+    color:rgb(112, 5, 5);
+    border: 1px solid rgb(112, 5, 5);
+    padding: 12px 34px;
+    font-size: 18px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    float: left;
+    margin-top: 40px;
+}
+.topo-btn:hover{
+    background: rgb(112, 5, 5);
+    transition: 0.2s;
+    color: #fff;
+}
+
+.topo-btn-final{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 18px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 500px;
+}
+.topo-btn-final:hover{
+    background: #fff;
+    transition: 0.2s;
+    color: rgb(83, 83, 83);
 }
