@@ -33,7 +33,7 @@ nav img{
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 23px;
 }
 .nav-links ul li::after{
     content: '';
@@ -55,14 +55,13 @@ nav img{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-
 }
 .text-box h1{
-    font-size: 62px;
+    font-size: 80px;
 }
 .text-box p{
     margin: 10px 0 20px;
-    font-size: 30px;
+    font-size: 50px;
 }
 .hero-btn{
     display: inline-block;
@@ -74,9 +73,9 @@ nav img{
     background: transparent;
     position: relative;
     cursor: pointer;
+    border-radius: 10px;
 }
 .hero-btn:hover{
-    border: 1px solid #ffffff;
     background: #ffffff;
     transition: 0.5s;
     color: rgb(83, 83, 83);
@@ -84,7 +83,6 @@ nav img{
 nav .fas{
     display: none;
 }
-
 
 @media(max-width: 700px){
     .text-box h1{
@@ -113,21 +111,87 @@ nav .fas{
     }
 }
 
+.servicos h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.servicos p{
+    font-size: 20px;
+    color: #777;
+}
+
+.servicos{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.servicos-col{
+    flex-basis: 48%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.servicos-col:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+.servicos-col h3{
+    padding-bottom: 10px;
+}
+
+@media(max-width: 700px){
+    .servicos-col{
+        
+    }
+    .row{
+        flex-direction: column;
+    }
+}
+
+.sobre h1{
+    font-size: 40px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.sobre p{
+    font-size: 20px;
+    color: #777;
+}
 .sobre{
     width: 80%;
     margin: auto;
     padding-top: 50px;
     padding-bottom: 20px;
     text-align: center;
+}
 
-}
-.sobre h1{
-    font-size: 40px;
-    padding-bottom: 20px;
-}
-.sobre p{
-    font-size: 20px;
-}
 .sobre img{
     border: 3px solid rgb(112, 5, 5);
+}
+.cv-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 18px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.cv-btn:hover{
+    background: #000000;
+    transition: 0.2s;
+    color: rgb(255, 255, 255);
 }
