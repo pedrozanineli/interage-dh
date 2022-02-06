@@ -6,7 +6,10 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgb(112, 5, 5, 0.9),rgb(112, 5, 5, 0.84));
+    background-image: linear-gradient(rgb(112, 5, 5, 0.9),rgb(112, 5, 5, 0.84)),url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 nav{
     display: flex;
@@ -78,10 +81,14 @@ nav img{
     transition: 0.5s;
     color: rgb(83, 83, 83);
 }
+nav .fas{
+    display: none;
+}
+
 
 @media(max-width: 700px){
     .text-box h1{
-        font-size: 20px;
+        font-size: 40px;
     }
     .nav-links ul li{
         display: block;
@@ -90,10 +97,37 @@ nav img{
         position: absolute;
         background: rgb(112, 5, 5);
         height: 100vh;
-        width: 200px;
+        width: 175px;
         top: 0;
-        right: 0;
+        right: -200px;
         text-align: left;
         z-index: 2;
+        transition: 0.8s;
     }
+    nav .fas{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+}
+
+.sobre{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+.sobre h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.sobre p{
+    font-size: 20px;
+}
+.sobre img{
+    border: 3px solid rgb(112, 5, 5);
 }
