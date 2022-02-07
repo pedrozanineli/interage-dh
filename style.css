@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
+    scroll-behavior: smooth;
+
 }
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgb(112, 5, 5, 0.9),rgb(112, 5, 5, 0.84)),url(images/background.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.5)),url(images/background.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -31,7 +33,7 @@ nav img{
     position: relative;
 }
 .nav-links ul li a{
-    color: #fff;
+    color:rgb(83, 83, 83);
     text-decoration: none;
     font-size: 23px;
 }
@@ -39,7 +41,7 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: #ffffff;
+    background:rgb(83, 83, 83);
     display: block;
     margin: auto;
     transition: 0.2s;
@@ -49,7 +51,7 @@ nav img{
 }
 .text-box{
     width: 90%;
-    color: #fff;
+    color: rgb(83, 83, 83);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -66,19 +68,19 @@ nav img{
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
+    color: rgb(83, 83, 83);
+    border: 1px solid rgb(83, 83, 83);
     padding: 12px 34px;
-    font-size: 18px;
+    font-size: 20px;
     background: transparent;
     position: relative;
     cursor: pointer;
     border-radius: 10px;
 }
 .hero-btn:hover{
-    background: #ffffff;
-    transition: 0.5s;
-    color: rgb(83, 83, 83);
+    background: rgb(83, 83, 83);
+    transition: 0.3s;
+    color: #fff;
 }
 nav .fas{
     display: none;
@@ -93,7 +95,7 @@ nav .fas{
     }
     .nav-links{
         position: absolute;
-        background: rgb(112, 5, 5);
+        background:rgb(255, 255, 255);
         height: 100vh;
         width: 175px;
         top: 0;
@@ -104,7 +106,7 @@ nav .fas{
     }
     nav .fas{
         display: block;
-        color: #fff;
+        color:rgb(83, 83, 83);
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
@@ -124,7 +126,7 @@ nav .fas{
 }
 .servicos p{
     font-size: 20px;
-    color: #777;
+    color: rgb(90, 90, 90);
 }
 .row{
     margin-top: 5%;
@@ -160,7 +162,7 @@ nav .fas{
 }
 .sobre p{
     font-size: 20px;
-    color: #777;
+    color: rgb(90, 90, 90);
 }
 .sobre{
     width: 80%;
@@ -171,13 +173,13 @@ nav .fas{
 }
 
 .sobre img{
-    border: 3px solid rgb(112, 5, 5);
+    border: 3px solid rgb(83, 83, 83);
 }
 .cv-btn{
     display: inline-block;
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    border: 1px solid rgb(0, 0, 0);
+    color:rgb(83, 83, 83);
+    border: 1px solid rgb(83, 83, 83);
     padding: 12px 34px;
     font-size: 18px;
     background: transparent;
@@ -186,7 +188,7 @@ nav .fas{
     border-radius: 10px;
 }
 .cv-btn:hover{
-    background: #000000;
+    background: rgb(83, 83, 83);
     transition: 0.2s;
     color: rgb(255, 255, 255);
 }
@@ -195,7 +197,7 @@ nav .fas{
     min-height: 70vh;
     width: 100%;
     
-    background-image: linear-gradient(rgb(112, 5, 5, 0.9),rgb(112, 5, 5, 0.84)),url(images/background.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.5)),url(images/background.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -203,7 +205,7 @@ nav .fas{
     display: inline-block;
     text-align: left;
 
-    color: #fff;
+    color:rgb(44, 44, 44);
     margin: auto;
     padding-top: 50px;
 }
@@ -218,7 +220,7 @@ nav .fas{
     padding-left: 20%;
 }
 .emailLink{
-    color: #fff;
+    color:rgb(83, 83, 83);
     font-size: 30px;
 }
 
@@ -241,8 +243,8 @@ nav .fas{
 .topo-btn{
     display: inline-block;
     text-decoration: none;
-    color:rgb(112, 5, 5);
-    border: 1px solid rgb(112, 5, 5);
+    color:rgb(83, 83, 83);
+    border: 1px solid rgb(83, 83, 83);
     padding: 12px 34px;
     font-size: 18px;
     background: transparent;
@@ -253,7 +255,7 @@ nav .fas{
     margin-top: 40px;
 }
 .topo-btn:hover{
-    background: rgb(112, 5, 5);
+    background: rgb(83, 83, 83);
     transition: 0.2s;
     color: #fff;
 }
@@ -261,8 +263,8 @@ nav .fas{
 .topo-btn-final{
     display: inline-block;
     text-decoration: none;
-    color:#fff;
-    border: 1px solid #fff;
+    color:rgb(44, 44, 44);
+    border: 1px solid rgb(83, 83, 83);
     padding: 12px 34px;
     font-size: 18px;
     background: transparent;
@@ -274,7 +276,7 @@ nav .fas{
     margin-left: 20%;
 }
 .topo-btn-final:hover{
-    background: #fff;
+    background: rgb(83, 83, 83);
     transition: 0.2s;
-    color: rgb(83, 83, 83);
+    color: rgb(255, 255, 255);
 }
