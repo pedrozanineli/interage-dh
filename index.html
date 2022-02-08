@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 
-    <script src="https://use.fontawesome.com/c65405d847.js"></script>
+    <script src="https://kit.fontawesome.com/a92e5e408d.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -29,7 +29,7 @@
                     <li><a href="#contato" onclick="hideMenu()">Contato</a></li>
                 </ul>
             </div>
-            <i class="fas fa-align-justify" onclick="showMenu()"></i>
+            <i class="fas fa-align-justify" onclick="showMenu()" style="text-align: center;"></i>
         </nav>
 
         <div class="text-box">
@@ -40,7 +40,7 @@
         </div>
     </section>
 
-    <div style="background-color: rgb(250, 250, 250);">
+    <div class="servicossobre">
         <section class="servicos" id="servicos">
             <h1>Seja bem vindo à Interage!</h1>
             <p>É listado abaixo os serviços oferecidos por parte da Interage DH.</p>
@@ -74,7 +74,7 @@
             <p>Sou Psicóloga, Mestre em Psicologia, Docente e Consultora com 30 anos de experiência. Pós-graduada em Dinâmica de Grupos (SBDG), <br> formação em Liderança Facilitadora (Adigo), Avaliação 360º (Clark Wilson Group), Terapia e Pensamento Sistêmico, CNV (Comunicação não Violente), <br> Teoria U (Presencing Institute), Art Of Hosting (AOH). Certificada pela Hogan Assessment Systems. Formada em TSFI (Terapia Sistêmica Fenomenológica Integrativa), <br> Constelação Sistêmica, Terapia da Matriz de Nascimento/Antroposofia, Radiestesia Cósmica e Arte Shitall.</p><br>
             <p>Então agrego diferentes recursos e ferramentas de desenvolvimento humano. <br> Sou coautora de 3 livros, autora de 2 artigos internacionais, 11 nacionais.</p><br>
             <a href="http://lattes.cnpq.br/6079979973874692" target="_blank" class="cv-btn">CV Lattes</a>
-            <a href="https://www.linkedin.com/in/adriana-duarte-8b67a998/" target="_blank" class="cv-btn">LinkedIn</a><br><br>
+            <a href="https://www.linkedin.com/in/adriana-duarte-8b67a998/" target="_blank" class="cv-btn"><i class="fab fa-linkedin-in"></i></a><br><br>
             <img src="images/adriana-duarte.jpg" alt="Adriana Duarte">
         </section>
     </div>
@@ -98,13 +98,11 @@
     <script>
         var navLinks = document.getElementById("navLinks");
         function showMenu(){
-            navLinks.style.right="0";
+            navLinks.style.left="0";
         }
         function hideMenu(){
-            navLinks.style.right="-200px";
+            navLinks.style.left="-200px";
         }
     </script>
-
-
 </body>
 </html>
